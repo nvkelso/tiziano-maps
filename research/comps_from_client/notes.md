@@ -1,0 +1,4 @@
+* 01-Map-D.png -- The original feel of the map. The splotchy blue was just meant to represent that the map would be topographical. Small blue dots represent tweets, large represent projects.
+* tz-home-10.png -- A newer concept for the map, but I feel that it has a bit too much of a Halloween feel to it rather than the world at night.
+* Board001-004. jpgs -- This is a working concept for an intro animation for StoriesFrom videos. Has a great look and feel that I really like.
+* TizianoProject-StoriesFrom-Comps.pdf -- A slightly out-of-date walk through of the entire site. Just to give you an idea of the look and feel of the rest of the site.
