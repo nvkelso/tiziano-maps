@@ -1,15 +1,33 @@
 <?xml version='1.0' encoding='utf8'?>
 <Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     
+    <!--
     <DataSourcesConfig src="datasources-shp.ini" />
     <DataSourcesConfig src="datasources-dymo-shp.ini" />
     <DataSourcesConfig src="datasources-ne-roads-shp.ini" />
+    -->
 
     <Stylesheet src="stylesheet.mss"/> 
     <Stylesheet src="labels.mss"/>
 
 	<!-- start NATURAL EARTH -->
 
+    <Layer id="ne_10m_ocean" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/10m_ocean</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="ne_10m_land" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/10m_land</Parameter>
+        </Datasource>
+    </Layer>
+    
+
+    <!--
     <Layer class="imagery" id="NE1_HR_LC_SR_W_DR" source_name="NE1_HR_LC_SR_W_DR" />
 
     <Layer class="shore" id="land-shapes-110m" source_name="land_shapes_110m__shore" />
@@ -77,5 +95,6 @@
     
     <Layer class="city-labels-z9" source_name="city_labels_z9" />
     <Layer class="city-points-z9" source_name="city_points_z9" />
+    -->
     
 </Map>
