@@ -1,4 +1,6 @@
 MAP_TYPE = style.xml
+#MAP_TYPE = style-solid-colors.xml
+#MAP_TYPE = style-ocean.xml
 
 SFO_LATLON = 37.764740 -122.419523
 SFO_LATLON2 = 37.764740 -122.419523 #37.6141 -122.3961
@@ -137,29 +139,18 @@ style.xml: style.mml datasources-shp.ini datasources-dymo-shp.ini datasources-ne
 	cascadenik-compile.py style.mml $@
 	chmod a+r $@
 
+style-solid-colors.xml: style-solid-colors.mml datasources-shp.ini datasources-dymo-shp.ini datasources-ne-roads-shp.ini stylesheet-solid-colors.mss labels.mss
+	cascadenik-compile.py style-solid-colors.mml $@
+	chmod a+r $@
 
-tilestache-clean:
-	rm -r ../tilestache/tiles/*
-
-tilestache-update: style.xml
-	cp style.xml ../tilestache/style.xml
-
-tilestache-start: 
-	gunicorn -b 192.168.1.5:4132 "TileStache:WSGITileServer('../tilestache/tilestache.cfg')"
-
-
-clear-cache: 
-	tilestache-clean 
-
-clean-cache:
-	tilestache-clean
-
-clean-tilestache:
-	tilestache-clean
+style-ocean.xml: style-solid-colors.mml stylesheet-ocean.mss
+	cascadenik-compile.py style-ocean.mml $@
+	chmod a+r $@
 
 
 clean:
 	rm -f style.xml
+	rm -f style-solid-colors.xml
 	rm -f renders/low-zoom-world-*.png
 	rm -f renders/sanfrancisco-*.png
 	rm -f renders/oakland-*.png
