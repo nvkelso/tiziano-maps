@@ -3,10 +3,15 @@ Map
     map-bgcolor: transparent;
 }
 
-.country-boundary-10m[zoom>=2]
+.country-boundary-10m[zoom=2]
 {
     line-color: #000;
-    line-width: 1.2;
+    line-width: 0.8;
+}
+.country-boundary-10m[zoom=3]
+{
+    line-color: #000;
+    line-width: 1.0;
 }
 .country-boundary-10m[zoom>=4]
 {
