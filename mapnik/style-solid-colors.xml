@@ -1,21 +1,25 @@
 <Map background-color="rgba(0,0,0,0)" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-  <Style filter-mode="first" name="line style 16">
+  <Style name="line style 16">
     <Rule name="rule 2">
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <LineSymbolizer stroke="rgb(35,148,217)" />
+      <LineSymbolizer>
+        <CssParameter name="stroke">rgb(35,148,217)</CssParameter>
+      </LineSymbolizer>
     </Rule>
   </Style>
-  <Style filter-mode="first" name="polygon style 13">
+  <Style name="polygon style 13">
     <Rule name="rule 1">
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <PolygonSymbolizer fill="rgb(29,125,183)" />
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(29,125,183)</CssParameter>
+      </PolygonSymbolizer>
     </Rule>
   </Style>
   <Layer name="layer 19" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
     <StyleName>polygon style 13</StyleName>
     <StyleName>line style 16</StyleName>
     <Datasource>
-      <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/10m_urban_areas</Parameter>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/10m_urban_areas</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>

@@ -1,6 +1,7 @@
-MAP_TYPE = style.xml
+#MAP_TYPE = style.xml
 #MAP_TYPE = style-solid-colors.xml
 #MAP_TYPE = style-ocean.xml
+MAP_TYPE = style-labels.xml
 
 SFO_LATLON = 37.764740 -122.419523
 SFO_LATLON2 = 37.764740 -122.419523 #37.6141 -122.3961

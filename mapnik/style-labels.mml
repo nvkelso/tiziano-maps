@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+<!DOCTYPE Map[
+    <!ENTITY epsg4326 "+proj=longlat +datum=WGS84">
+    <!ENTITY epsg900913 "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <!ENTITY epsg900913_extent "-20037508,-20037508,20037508,20037508">
+]>
+<Map srs="&epsg900913;">
     
     <!--
     <DataSourcesConfig src="datasources-shp.ini" />
@@ -22,7 +27,7 @@
     <Layer class="shore" id="country-shapes-10m" source_name="country_shapes_10m__shore" />
     -->    
     
-    <Layer id="admin1-lines-50m" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer id="admin1-lines-50m" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/50m-admin-1-states-provinces-lines-shp</Parameter>
@@ -30,7 +35,7 @@
     </Layer>
 
     
-    <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/ne_10m_admin_0_boundary_lines_land</Parameter>
@@ -38,44 +43,51 @@
     </Layer>
         
 
-    <Layer class="admin1-labels-50m-z4" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="admin1-labels-50m-z4" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels_admin/admin-1-labels-z4</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="admin1-labels-50m-z5" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="admin1-labels-50m-z5" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels_admin/admin-1-labels-z5</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="admin1-labels-50m-z6" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="admin1-labels-50m-z6" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels_admin/admin-1-labels-z6</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="admin1-labels-50m-z7" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="admin1-labels-50m-z7" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels_admin/admin-1-labels-z7</Parameter>
         </Datasource>
     </Layer>
     
-    <Layer class="country-labels-110m-z4" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="country-labels-110m-z3" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/admin_0_countries_110m-points</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer class="country-labels-110m-z4" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels_admin/admin-0-labels-z4</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="country-labels-110m-z5" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="country-labels-110m-z5" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels_admin/admin-0-labels-z5</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="country-labels-110m-z6" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer class="country-labels-110m-z6" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/labels_admin/admin-0-labels-z6</Parameter>
