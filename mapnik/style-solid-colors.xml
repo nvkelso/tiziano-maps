@@ -1,0 +1,26 @@
+<Map background-color="rgb(28,31,32)" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Style name="polygon style 14">
+    <Rule name="rule 2">
+      <PolygonSymbolizer fill="rgb(36,54,65)" />
+    </Rule>
+  </Style>
+  <Style name="polygon style 7">
+    <Rule name="rule 1">
+      <PolygonSymbolizer fill="rgb(35,36,36)" />
+    </Rule>
+  </Style>
+  <Layer name="layer 13" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>polygon style 7</StyleName>
+    <Datasource>
+      <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/10m_land</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 20" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>polygon style 14</StyleName>
+    <Datasource>
+      <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/10m_urban_areas</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+</Map>
