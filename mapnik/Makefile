@@ -151,6 +151,11 @@ style-labels.xml: style-labels.mml stylesheet-labels.mss naturalearth-lowzooms.m
 	cascadenik-compile.py style-labels.mml $@
 	chmod a+r $@
 
+all-styles: \
+    style-ocean.xml \
+    style-solid-colors.xml \
+    style.xml
+    
 
 clean:
 	rm -f style.xml
