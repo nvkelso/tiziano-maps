@@ -1,23 +1,11 @@
 Map
 {
-    map-bgcolor: #1c1f20;      /* the "ocean" is black */
+    map-bgcolor: transparent;
 }
 
-#ne_10m_land
+#ne_10m_urban_areas[zoom>=4]
 {
-    polygon-fill: #232424;
+    polygon-fill: #1d7db7;
+    line-color: #2394d9;
+    line-width: 1.0;
 }
-
-#ne_10m_urban_areas
-{
-    polygon-fill: #243641;
-}
-
-/*
-#ne_10m_ocean
-{
-    line-color: #000;
-    line-cap: round;
-    line-join: round;
-}
-*/

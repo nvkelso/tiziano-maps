@@ -135,11 +135,11 @@ renders/low-zoom-world-sanfrancisco-9.png: $(MAP_TYPE)
 	python mapnik-render.py -f fonts -s $(MAP_TYPE) -l $(SFO_LATLON) -z 9 -d 1024 600 -o $@
 
 
-style.xml: style.mml datasources-shp.ini datasources-dymo-shp.ini datasources-ne-roads-shp.ini stylesheet.mss labels.mss
+style.xml: style.mml stylesheet.mss labels.mss
 	cascadenik-compile.py style.mml $@
 	chmod a+r $@
 
-style-solid-colors.xml: style-solid-colors.mml datasources-shp.ini datasources-dymo-shp.ini datasources-ne-roads-shp.ini stylesheet-solid-colors.mss labels.mss
+style-solid-colors.xml: style-solid-colors.mml stylesheet-solid-colors.mss labels.mss
 	cascadenik-compile.py style-solid-colors.mml $@
 	chmod a+r $@
 
@@ -147,10 +147,16 @@ style-ocean.xml: style-solid-colors.mml stylesheet-ocean.mss
 	cascadenik-compile.py style-ocean.mml $@
 	chmod a+r $@
 
+style-labels.xml: style-labels.mml stylesheet-labels.mss naturalearth-lowzooms.mss
+	cascadenik-compile.py style-labels.mml $@
+	chmod a+r $@
+
 
 clean:
 	rm -f style.xml
 	rm -f style-solid-colors.xml
+	rm -f style-ocean.xml
+	rm -f style-labels.xml
 	rm -f renders/low-zoom-world-*.png
 	rm -f renders/sanfrancisco-*.png
 	rm -f renders/oakland-*.png

@@ -5,14 +5,12 @@ Map
 
 #ne_10m_land
 {
-    polygon-fill: #06071b;
+    polygon-fill: #011027;
 }
 
 /*
 #ne_10m_ocean
 {
-    line-color: #000;
-    line-cap: round;
-    line-join: round;
+    polygon-fill: #000;
 }
 */

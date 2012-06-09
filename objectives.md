@@ -18,11 +18,12 @@
 
 #Draft review
 
-- Proceed with the `bright` map. Use it mostly as is at the world zooms, making it more `blue`. Add a gradient treatment to match provided screenshot (horizontal so there is dark at top, see thru in the middle, and dark on the bottom). This will be obvious here, less obvious zoomed in.
+- Proceed with the `bright` map. Use it mostly as is at the world zooms, making it more `blue`. 
+- Add a gradient treatment to match provided screenshot (horizontal so there is dark at top, see thru in the middle, and dark on the bottom). This will be obvious here, less obvious zoomed in. Waiting on further email communication.
 - At the more detailed zooms (Europe in the screenshot), bring in the urban areas from the `solid-color` map. Reduce the satellite image / shaded relief so it's not so prominent. 
 - Add in the country boundaries, country labels, townspots and town labels at the detailed zooms.
-- For water and dark colors, use the color swatches Grant provided.
 - Default zoom is 3.
+- For water and dark colors, try one of the color swatches Grant provided:
 - Grays (darkest to lightest):
     34,34,34 - #222222
     68,68,68 - #444444

@@ -4,10 +4,150 @@
       <PolygonSymbolizer fill="rgb(0,0,0)" />
     </Rule>
   </Style>
+  <Style name="polygon style 8">
+    <Rule name="rule 2">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 3">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 4">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 5">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 6">
+      <Filter>(([ScaleRank]&gt;4) and ([ScaleRank]&lt;=5))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 7">
+      <Filter>([ScaleRank]&gt;5)</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 8">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 9">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 10">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 11">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 12">
+      <Filter>(([ScaleRank]&gt;4) and ([ScaleRank]&lt;=5))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 13">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 14">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 15">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 16">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 17">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 18">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 19">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 20">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>50000000</MinScaleDenominator>
+      <MaxScaleDenominator>99999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 21">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>50000000</MinScaleDenominator>
+      <MaxScaleDenominator>99999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 22">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>100000000</MinScaleDenominator>
+      <MaxScaleDenominator>199999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 23">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>100000000</MinScaleDenominator>
+      <MaxScaleDenominator>199999999</MaxScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+    <Rule name="rule 24">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>200000000</MinScaleDenominator>
+      <PolygonSymbolizer fill="rgb(0,0,0)" />
+    </Rule>
+  </Style>
   <Layer name="layer 7" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
     <StyleName>polygon style 1</StyleName>
     <Datasource>
       <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/10m_ocean</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 14" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>polygon style 8</StyleName>
+    <Datasource>
+      <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/ne_10m_lakes</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>

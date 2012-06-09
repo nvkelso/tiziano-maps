@@ -12,4 +12,11 @@
         </Datasource>
     </Layer>
     
+    <Layer id="ne_10m_lakes" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/ne_10m_lakes</Parameter>
+        </Datasource>
+    </Layer>
+    
 </Map>
