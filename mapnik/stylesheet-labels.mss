@@ -9,7 +9,7 @@ Country labels
     text-size: 13;
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
+    text-halo-fill: #27344a;
 }
 
 .country-labels-110m-z4[zoom=4] label_z4
@@ -19,7 +19,7 @@ Country labels
     text-size: 14;
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
+    text-halo-fill: #27344a;
 }
 
 .country-labels-110m-z5[zoom=5] label_z5
@@ -29,7 +29,7 @@ Country labels
     text-size: 16;
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
+    text-halo-fill: #27344a;
 }
 
 .country-labels-110m-z6[zoom=6] label_z6
@@ -39,7 +39,7 @@ Country labels
     text-size: 18;
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
+    text-halo-fill: #27344a;
 }
 
 
@@ -55,7 +55,7 @@ Admin-1 (states, provinces) labels
     text-wrap-width: 80;
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
+    text-halo-fill: #27344a;
 }
 
 .admin1-labels-50m-z4[zoom=4]{ text-size: 12; }
@@ -106,7 +106,7 @@ City labels
     text-face-name: 'Arial Unicode MS Regular';
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;
+    text-halo-fill: #27344a;
 }
 
 .city-labels-z7[zoom=7] name
@@ -115,7 +115,7 @@ City labels
     text-face-name: 'Arial Unicode MS Bold';
     text-fill: #000;
     text-halo-radius: 2;
-    text-halo-fill: #fff;    
+    text-halo-fill: #27344a;    
 }
 
 

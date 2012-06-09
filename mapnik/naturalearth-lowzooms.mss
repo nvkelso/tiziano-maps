@@ -17,7 +17,13 @@ Map
 {
     line-width: 2.2;
 }
-#admin1-lines-50m[zoom>=3]
+
+#admin1-lines-50m[zoom=3]
+{
+    line-color: #0e1e2b;
+    line-width: 0.8;
+}
+#admin1-lines-50m[zoom>=4]
 {
     line-color: #000;
     line-width: 1.2;
