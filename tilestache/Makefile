@@ -23,9 +23,21 @@ clean:
 	rm -r tiles/*
 	rm tiles.zip
 	
-../mapnik/style-toner-standard.xml:
+../mapnik/style.xml:
 	cascadenik-compile.py ../mapnik/style.mml $@
 	chmod a+r $@
 
-update: ../mapnik/style.xml
+../mapnik/style-solid-colors.xml:
+	cascadenik-compile.py ../mapnik/style-solid-colors.mml $@
+	chmod a+r $@
+
+../mapnik/style-ocean.xml:
+	cascadenik-compile.py ../mapnik/style-ocean.mml $@
+	chmod a+r $@
+
+
+update: ../mapnik/style.xml \
+	../mapnik/style-solid-colors.xml
 	cp ../mapnik/style.xml ../tilestache/style.xml
+	cp ../mapnik/style-solid-colors.xml ../tilestache/style-solid-colors.xml
+	cp ../mapnik/style-ocean.xml ../tilestache/style-ocean.xml
