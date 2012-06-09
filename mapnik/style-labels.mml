@@ -75,16 +75,10 @@
             <Parameter name="file">shp/labels_admin/admin-0-labels-z5</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="country-labels-110m-z5" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels_admin/admin-0-labels-z6</Parameter>
-        </Datasource>
-    </Layer>
     <Layer class="country-labels-110m-z6" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/labels_admin/admin-0-labels-z7</Parameter>
+            <Parameter name="file">shp/labels_admin/admin-0-labels-z6</Parameter>
         </Datasource>
     </Layer>
 
