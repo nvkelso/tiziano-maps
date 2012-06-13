@@ -41,3 +41,13 @@
     34,93,125 - 22607d
     40,120,164
     46,148,203
+    
+#Final review
+
+- Remove labels from zoom 3.
+- Rework zoom 3 to add more pizzaz. 
+- Zoom 3 might have a better feel if it was less political (less emphasis on borders and labels) and more on topography? 
+- There might be some residual transparency on the images, I'll see about taking that off.
+- Remove the urban areas? Zooms 4 and 5 mostly. Apparently it was just a placeholder for "topography"?
+- Match the "blue marble" look that doesn't actually have topography in it?
+- Kat will add gradient on her end, as well as any other texture.

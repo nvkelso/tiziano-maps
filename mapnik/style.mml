@@ -12,6 +12,15 @@
 
 	<!-- start NATURAL EARTH -->
 
+    
+    <Layer id="10m_wgs84_bounding_box" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/10m_wgs84_bounding_box</Parameter>
+        </Datasource>
+    </Layer>
+
+    <!--
     <Layer id="ne_10m_ocean" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
         <Datasource>
             <Parameter name="type">shape</Parameter>
@@ -25,7 +34,8 @@
             <Parameter name="file">shp/10m_land</Parameter>
         </Datasource>
     </Layer>
-    
+    -->
+        
 
     <!--
     <Layer class="imagery" id="NE1_HR_LC_SR_W_DR" source_name="NE1_HR_LC_SR_W_DR" />

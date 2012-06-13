@@ -1,6 +1,7 @@
 #MAP_TYPE = style.xml
 #MAP_TYPE = style-solid-colors.xml
 #MAP_TYPE = style-ocean.xml
+#MAP_TYPE = style-land.xml
 MAP_TYPE = style-labels.xml
 
 SFO_LATLON = 37.764740 -122.419523
@@ -144,8 +145,12 @@ style-solid-colors.xml: style-solid-colors.mml stylesheet-solid-colors.mss label
 	cascadenik-compile.py style-solid-colors.mml $@
 	chmod a+r $@
 
-style-ocean.xml: style-solid-colors.mml stylesheet-ocean.mss
+style-ocean.xml: style-ocean.mml stylesheet-ocean.mss
 	cascadenik-compile.py style-ocean.mml $@
+	chmod a+r $@
+
+style-land.xml: style-land.mml stylesheet-land.mss
+	cascadenik-compile.py style-land.mml $@
 	chmod a+r $@
 
 style-labels.xml: style-labels.mml stylesheet-labels.mss naturalearth-lowzooms.mss
@@ -154,6 +159,7 @@ style-labels.xml: style-labels.mml stylesheet-labels.mss naturalearth-lowzooms.m
 
 all-styles: \
     style-ocean.xml \
+    style-land.xml \
     style-solid-colors.xml \
     style.xml
     
@@ -162,6 +168,7 @@ clean:
 	rm -f style.xml
 	rm -f style-solid-colors.xml
 	rm -f style-ocean.xml
+	rm -f style-land.xml
 	rm -f style-labels.xml
 	rm -f renders/low-zoom-world-*.png
 	rm -f renders/sanfrancisco-*.png

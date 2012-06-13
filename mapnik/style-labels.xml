@@ -1,25 +1,14 @@
 <Map background-color="rgba(0,0,0,0)" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
   <Style filter-mode="first" name="line style 11">
-    <Rule name="rule 3">
-      <MinScaleDenominator>50000000</MinScaleDenominator>
-      <MaxScaleDenominator>99999999</MaxScaleDenominator>
-      <LineSymbolizer />
-    </Rule>
-    <Rule name="rule 4">
-      <MinScaleDenominator>100000000</MinScaleDenominator>
-      <MaxScaleDenominator>199999999</MaxScaleDenominator>
-      <LineSymbolizer stroke-width="0.800000011920929" />
+    <Rule name="rule 2">
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <LineSymbolizer stroke-width="1.5" />
     </Rule>
   </Style>
   <Style filter-mode="first" name="line style 4">
     <Rule name="rule 1">
-      <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <LineSymbolizer stroke-width="1.200000047683716" />
-    </Rule>
-    <Rule name="rule 2">
-      <MinScaleDenominator>50000000</MinScaleDenominator>
-      <MaxScaleDenominator>99999999</MaxScaleDenominator>
-      <LineSymbolizer stroke="rgb(14,30,43)" stroke-width="0.800000011920929" />
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <LineSymbolizer />
     </Rule>
   </Style>
   <Layer name="layer 7" srs="+proj=longlat +datum=WGS84">

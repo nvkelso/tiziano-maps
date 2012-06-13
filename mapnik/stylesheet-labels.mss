@@ -1,6 +1,8 @@
 /*
 Country labels
 */
+
+/*
 .country-labels-110m-z3[zoom=3][longfrom<=3] name,
 .country-labels-110m-z3[zoom=3][longfrom>3] shortname
 {
@@ -11,6 +13,7 @@ Country labels
     text-halo-radius: 2;
     text-halo-fill: #27344a;
 }
+*/
 
 .country-labels-110m-z4[zoom=4] label_z4
 {
