@@ -13,8 +13,8 @@
     -->
 
     <Stylesheet src="naturalearth-lowzooms.mss"/> 
-    <Stylesheet src="stylesheet-labels.mss"/> 
     <!--
+    <Stylesheet src="stylesheet-labels.mss"/> 
     -->
 
 	<!-- start NATURAL EARTH -->

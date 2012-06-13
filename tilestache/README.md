@@ -15,6 +15,7 @@ For seeding tile staches:
     tilestache-seed.py -b 22.2 -126.9 40.0 -67.2 -c tilestache.cfg -l map 0 1 2 3 4 5 6
     tilestache-seed.py -b 22.2 -126.9 40.0 -67.2 -c tilestache.cfg -l image 0 1 2 3 4 5 6
     tilestache-seed.py -b 22.2 -126.9 40.0 -67.2 -c tilestache.cfg -l basemap 0 1 2 3 4 5 6
+    tilestache-seed.py -b 22.2 -126.9 40.0 -67.2 -c tilestache.cfg -l map-bright 0 1 2 3 4 5 6
     
 We want to seed tiles in the CONUS area of the US excluding Alaska and Hawaii since it's a nice bounding box. The layer we're drawing is "map" in that config file. The 4 stands for the zoom to seed at. We run this as sudo -u www-data so the tile images have the correct privileges. 
 
