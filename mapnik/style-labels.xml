@@ -1,27 +1,117 @@
 <Map background-color="rgba(0,0,0,0)" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-  <Style filter-mode="first" name="line style 11">
+  <Style name="line style 11">
     <Rule name="rule 2">
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <LineSymbolizer stroke-width="1.5" />
+      <LineSymbolizer>
+        <CssParameter name="stroke">rgb(93,92,92)</CssParameter>
+        <CssParameter name="stroke-width">1.1</CssParameter>
+      </LineSymbolizer>
     </Rule>
   </Style>
-  <Style filter-mode="first" name="line style 4">
+  <Style name="line style 4">
     <Rule name="rule 1">
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <LineSymbolizer />
+      <LineSymbolizer>
+        <CssParameter name="stroke">rgb(93,92,92)</CssParameter>
+        <CssParameter name="stroke-width">0.8</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 27 (label_z5)">
+    <Rule name="rule 3">
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Lato Regular" fill="rgb(255,255,255)" size="16" wrap-width="80">label_z5</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 36 (label_z6)">
+    <Rule name="rule 4">
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Lato Regular" fill="rgb(255,255,255)" size="18" wrap-width="80">label_z6</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 45 (label_z7)">
+    <Rule name="rule 5">
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Lato Regular" fill="rgb(255,255,255)" size="20" wrap-width="80">label_z7</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 60 (label_z4)">
+    <Rule name="rule 6">
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Lato Bold" fill="rgb(255,255,255)" size="14" wrap-width="80">label_z4</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 69 (label_z5)">
+    <Rule name="rule 7">
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Lato Bold" fill="rgb(255,255,255)" size="16" wrap-width="80">label_z5</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 78 (label_z6)">
+    <Rule name="rule 8">
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="Lato Bold" fill="rgb(255,255,255)" size="18" wrap-width="80">label_z6</TextSymbolizer>
     </Rule>
   </Style>
   <Layer name="layer 7" srs="+proj=longlat +datum=WGS84">
     <StyleName>line style 4</StyleName>
     <Datasource>
-      <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/50m-admin-1-states-provinces-lines-shp</Parameter>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/50m-admin-1-states-provinces-lines-shp</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
   <Layer name="layer 14" srs="+proj=longlat +datum=WGS84">
     <StyleName>line style 11</StyleName>
     <Datasource>
-      <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/ne_10m_admin_0_boundary_lines_land</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 29" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 27 (label_z5)</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/labels_admin/admin-1-labels-z5</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 38" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 36 (label_z6)</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/labels_admin/admin-1-labels-z6</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 47" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 45 (label_z7)</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/labels_admin/admin-1-labels-z7</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 62" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 60 (label_z4)</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/labels_admin/admin-0-labels-z4</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 71" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 69 (label_z5)</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/labels_admin/admin-0-labels-z5</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 80" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 78 (label_z6)</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/labels_admin/admin-0-labels-z6</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>

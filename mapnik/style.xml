@@ -1,13 +1,13 @@
-<Map background-color="rgb(0,0,0)" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-  <Style filter-mode="first" name="polygon pattern style 2">
+<Map background-color="rgb(255,255,255)" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Style name="polygon pattern style 2">
     <Rule name="rule 1">
-      <PolygonPatternSymbolizer file="/Users/nvkelso2/git-repos/tiziano-maps/mapnik/images/grid-noise-pattern.png" />
+      <PolygonPatternSymbolizer file="/home/nate/public_html/tiziano-maps/mapnik/images/grid-noise-pattern.png" height="256" type="png" width="256" />
     </Rule>
   </Style>
-  <Layer name="layer 7" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+  <Layer name="layer 7" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
     <StyleName>polygon pattern style 2</StyleName>
     <Datasource>
-      <Parameter name="file">/Users/nvkelso2/git-repos/tiziano-maps/mapnik/shp/10m_wgs84_bounding_box</Parameter>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/zoom_00_tiles</Parameter>
       <Parameter name="type">shape</Parameter>
     </Datasource>
   </Layer>
