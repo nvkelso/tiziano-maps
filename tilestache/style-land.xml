@@ -1,0 +1,391 @@
+<Map background-color="rgb(0,0,0)" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Style name="line style 17">
+    <Rule name="rule 26">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 27">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 28">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 29">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 30">
+      <Filter>(([ScaleRank]&gt;4) and ([ScaleRank]&lt;=5))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 31">
+      <Filter>([ScaleRank]&gt;5)</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 32">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 33">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 34">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 35">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 36">
+      <Filter>(([ScaleRank]&gt;4) and ([ScaleRank]&lt;=5))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 37">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 38">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 39">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 40">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 41">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 42">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 43">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 44">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>50000000</MinScaleDenominator>
+      <MaxScaleDenominator>99999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 45">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>50000000</MinScaleDenominator>
+      <MaxScaleDenominator>99999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 46">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>100000000</MinScaleDenominator>
+      <MaxScaleDenominator>199999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 47">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>100000000</MinScaleDenominator>
+      <MaxScaleDenominator>199999999</MaxScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+    <Rule name="rule 48">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>200000000</MinScaleDenominator>
+      <LineSymbolizer>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="line style 4">
+    <Rule name="rule 2">
+      <LineSymbolizer>
+        <CssParameter name="stroke">rgb(255,255,255)</CssParameter>
+        <CssParameter name="stroke-width">0.5</CssParameter>
+      </LineSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="polygon style 1">
+    <Rule name="rule 1">
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(255,255,255)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="polygon style 14">
+    <Rule name="rule 3">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 4">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 5">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 6">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 7">
+      <Filter>(([ScaleRank]&gt;4) and ([ScaleRank]&lt;=5))</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 8">
+      <Filter>([ScaleRank]&gt;5)</Filter>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 9">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 10">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 11">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 12">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 13">
+      <Filter>(([ScaleRank]&gt;4) and ([ScaleRank]&lt;=5))</Filter>
+      <MinScaleDenominator>6500000</MinScaleDenominator>
+      <MaxScaleDenominator>12499999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 14">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 15">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 16">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 17">
+      <Filter>(([ScaleRank]&gt;3) and ([ScaleRank]&lt;=4))</Filter>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 18">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 19">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 20">
+      <Filter>(([ScaleRank]&gt;2) and ([ScaleRank]&lt;=3))</Filter>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 21">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>50000000</MinScaleDenominator>
+      <MaxScaleDenominator>99999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 22">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>50000000</MinScaleDenominator>
+      <MaxScaleDenominator>99999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 23">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>100000000</MinScaleDenominator>
+      <MaxScaleDenominator>199999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 24">
+      <Filter>(([ScaleRank]&gt;1) and ([ScaleRank]&lt;=2))</Filter>
+      <MinScaleDenominator>100000000</MinScaleDenominator>
+      <MaxScaleDenominator>199999999</MaxScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule name="rule 25">
+      <Filter>([ScaleRank]&lt;=1)</Filter>
+      <MinScaleDenominator>200000000</MinScaleDenominator>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">rgb(0,0,0)</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="layer 7" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>polygon style 1</StyleName>
+    <StyleName>line style 4</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/10m_land</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 20" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>polygon style 14</StyleName>
+    <StyleName>line style 17</StyleName>
+    <Datasource>
+      <Parameter name="file">/home/nate/public_html/tiziano-maps/mapnik/shp/ne_10m_lakes</Parameter>
+      <Parameter name="type">shape</Parameter>
+    </Datasource>
+  </Layer>
+</Map>
