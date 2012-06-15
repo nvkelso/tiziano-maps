@@ -1,13 +1,13 @@
 Map
 {
-    map-bgcolor: #fff;
+    map-bgcolor: #000;
 }
 
-#ne_10m_ocean
+#ne_10m_land
 {
-    polygon-fill: #000;
-    line-color: #000;
-    line-width: 2.0;    
+    polygon-fill: #fff;
+    line-color: #fff;
+    line-width: 0.5;    
 }
 
 #ne_10m_lakes[zoom<=1][ScaleRank<=1],
@@ -20,5 +20,5 @@ Map
 {
     polygon-fill: #000;
     line-color: #000;
-    line-width: 2.0;    
+    line-width: 0.5;
 }

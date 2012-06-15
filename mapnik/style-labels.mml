@@ -13,8 +13,8 @@
     -->
 
     <Stylesheet src="naturalearth-lowzooms.mss"/> 
-    <!--
     <Stylesheet src="stylesheet-labels.mss"/> 
+    <!--
     -->
 
 	<!-- start NATURAL EARTH -->
@@ -103,23 +103,191 @@
     -->
     
     <!--
-    <Layer class="city-labels-z4" source_name="city_labels_z4" />
-    <Layer class="city-points-z4" source_name="city_points_z4" />
-    
-    <Layer class="city-labels-z5" source_name="city_labels_z5" />
-    <Layer class="city-points-z5" source_name="city_points_z5" />
-    
-    <Layer class="city-labels-z6" source_name="city_labels_z6" />
-    <Layer class="city-points-z6" source_name="city_points_z6" />
+    <Layer class="city-labels-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-labels-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-labels-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-labels-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-labels-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-labels-z4</Parameter>
+        </Datasource>
+    </Layer>
 
-    <Layer class="city-labels-z7" source_name="city_labels_z7" />
-    <Layer class="city-points-z7" source_name="city_points_z7" />    
+    <Layer class="city-points-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-points-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-points-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-points-z4</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z4" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-points-z4</Parameter>
+        </Datasource>
+    </Layer> 
 
-    <Layer class="city-labels-z8" source_name="city_labels_z8" />
-    <Layer class="city-points-z8" source_name="city_points_z8" />
-    
-    <Layer class="city-labels-z9" source_name="city_labels_z9" />
-    <Layer class="city-points-z9" source_name="city_points_z9" />
+    <Layer class="city-labels-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-labels-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-labels-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-labels-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-labels-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-labels-z5</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer class="city-points-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-points-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-points-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-points-z5</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z5" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-points-z5</Parameter>
+        </Datasource>
+    </Layer> 
+
+    <Layer class="city-labels-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-labels-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-labels-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-labels-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-labels-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-labels-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-labels-z6</Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer class="city-points-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/south-america-points-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/north-america-points-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/europe-points-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/africa-points-z6</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer class="city-points-z6" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/labels/asia-points-z6</Parameter>
+        </Datasource>
+    </Layer>     
     -->
     
 </Map>

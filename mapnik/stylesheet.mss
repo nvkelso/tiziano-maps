@@ -1,9 +1,9 @@
 Map
 {
-    map-bgcolor: #000000;      /* the "ocean" is black */
+    map-bgcolor: #fff;      /* the "ocean" is black */
 }
 
-#10m_wgs84_bounding_box
+#zoom0
 {
     polygon-pattern-file: url("images/grid-noise-pattern.png");
 }

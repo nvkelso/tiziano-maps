@@ -1,110 +1,38 @@
 <?xml version='1.0' encoding='utf8'?>
-<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-    
-    <!--
-    <DataSourcesConfig src="datasources-shp.ini" />
-    <DataSourcesConfig src="datasources-dymo-shp.ini" />
-    <DataSourcesConfig src="datasources-ne-roads-shp.ini" />
-    -->
+<!DOCTYPE Map[
+    <!ENTITY epsg4326 "+proj=longlat +datum=WGS84">
+    <!ENTITY epsg900913 "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <!ENTITY epsg900913_extent "-20037508,-20037508,20037508,20037508">
+]>
+<Map srs="&epsg900913;">
 
     <Stylesheet src="stylesheet.mss"/> 
-    <!--<Stylesheet src="labels.mss"/>-->
+    <!--
+    <Stylesheet src="labels.mss"/>
+    -->
 
 	<!-- start NATURAL EARTH -->
 
     
-    <Layer id="10m_wgs84_bounding_box" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer id="zoom0" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/10m_wgs84_bounding_box</Parameter>
+            <Parameter name="file">shp/zoom_00_tiles</Parameter>
         </Datasource>
     </Layer>
 
-    <!--
-    <Layer id="ne_10m_ocean" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer id="ne_10m_ocean"  srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/10m_ocean</Parameter>
         </Datasource>
     </Layer>
 
-    <Layer id="ne_10m_land" srs="+proj=latlong +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer id="ne_10m_land"  srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/10m_land</Parameter>
         </Datasource>
     </Layer>
-    -->
-        
-
-    <!--
-    <Layer class="imagery" id="NE1_HR_LC_SR_W_DR" source_name="NE1_HR_LC_SR_W_DR" />
-
-    <Layer class="shore" id="land-shapes-110m" source_name="land_shapes_110m__shore" />
-    <Layer class="shore" id="country-shapes-110m" source_name="country_shapes_110m__shore" />
-    <Layer class="shore" id="country-shapes-50m" source_name="country_shapes_50m__shore" />
-    <Layer class="shore" id="country-shapes-10m" source_name="country_shapes_10m__shore" />
-    <Layer class="shore" id="country-shapes-10m" source_name="country_shapes_10m__shore" />
-        
-    <Layer class="shore" id="coastline-10m" source_name="coastline_10m__shore" />
-
-    <Layer id="land" source_name="land" status="on" />
-    
-    <Layer id="admin1-lines-110m" source_name="admin1_lines_110m" status="off" />
-    <Layer id="admin1-lines-50m" source_name="admin1_lines_50m" />
-    <Layer id="admin1-lines-10m" source_name="admin1_lines_10m" />
-
-    <Layer class="country-boundary-10m-whiteout" id="ne_10m_admin_0_boundary_lines_land" source_name="ne_10m_admin_0_boundary_lines_land__country_boundary_10m_whiteout" />
-    <Layer class="country-boundary-10m" id="ne_10m_admin_0_boundary_lines_land" source_name="ne_10m_admin_0_boundary_lines_land__country_boundary_10m" />    
-    
-    <Layer id="admin1-lines-osm" source_name="admin1_lines_osm" />
-        
-    <Layer class="shore" id="lakes-110m" source_name="lakes_110m__shore" />
-    <Layer class="shore" id="lakes-50m" source_name="lakes_50m__shore" />
-    <Layer class="shore" id="lakes-10m" source_name="lakes_10m__shore" />
-
-
-    <Layer id="ne-roads-casing" source_name="ne_10m_roads" />    
-    <Layer id="ne-roads-inline" source_name="ne_10m_roads" />    
-    
-    <Layer id="admin1-labels-50m" source_name="admin1_labels_50m" />
-    
-    <Layer class="admin1-labels-50m-z4" source_name="admin1_labels_50m_z4" />
-    <Layer class="admin1-labels-50m-z5" source_name="admin1_labels_50m_z5" />    
-    <Layer class="admin1-labels-50m-z6" source_name="admin1_labels_50m_z6" />    
-    <Layer class="admin1-labels-50m-z7" source_name="admin1_labels_50m_z7" />    
-    
-    <Layer id="admin1-labels-10m" source_name="admin1_labels_10m" />
-
-    <Layer class="country-labels-110m-z3" source_name="country_labels_110m_z3" />
-
-    <Layer class="country-labels-110m-z4" source_name="country_labels_110m_z4" />
-    <Layer class="country-labels-110m-z5" source_name="country_labels_110m_z5" />
-    <Layer class="country-labels-110m-z6" source_name="country_labels_110m_z6" />
-
-    <Layer id="marine-labels-110m" source_name="marine_labels_110m" />
-    <Layer id="marine-labels-50m" source_name="marine_labels_50m" />
-    <Layer id="marine-labels-10m" source_name="marine_labels_10m" />
-
-    <Layer id="continent-labels" source_name="continent_labels" />
-    
-    <Layer class="city-labels-z4" source_name="city_labels_z4" />
-    <Layer class="city-points-z4" source_name="city_points_z4" />
-    
-    <Layer class="city-labels-z5" source_name="city_labels_z5" />
-    <Layer class="city-points-z5" source_name="city_points_z5" />
-    
-    <Layer class="city-labels-z6" source_name="city_labels_z6" />
-    <Layer class="city-points-z6" source_name="city_points_z6" />
-
-    <Layer class="city-labels-z7" source_name="city_labels_z7" />
-    <Layer class="city-points-z7" source_name="city_points_z7" />    
-
-    <Layer class="city-labels-z8" source_name="city_labels_z8" />
-    <Layer class="city-points-z8" source_name="city_points_z8" />
-    
-    <Layer class="city-labels-z9" source_name="city_labels_z9" />
-    <Layer class="city-points-z9" source_name="city_points_z9" />
-    -->
     
 </Map>

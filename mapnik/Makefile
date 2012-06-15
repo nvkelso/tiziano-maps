@@ -161,6 +161,7 @@ all-styles: \
     style-ocean.xml \
     style-land.xml \
     style-solid-colors.xml \
+    style-labels.xml \
     style.xml
     
 
