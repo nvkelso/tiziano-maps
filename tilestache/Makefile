@@ -35,25 +35,22 @@ clean:
 	cascadenik-compile.py ../mapnik/style-ocean.mml $@
 	chmod a+r $@
 
+../mapnik/style-land.xml:
+	cascadenik-compile.py ../mapnik/style-land.mml $@
+	chmod a+r $@
+
 ../mapnik/style-labels.xml:
 	cascadenik-compile.py ../mapnik/style-labels.mml $@
 	chmod a+r $@
 
-
-update: ../mapnik/style.xml \
-	../mapnik/style-solid-colors.xml \
-	../mapnik/style-ocean.xml \
-	../mapnik/style-labels.xml
-	upgrade_map_xml.py ../mapnik/style.xml ../tilestache/style.xml
-	upgrade_map_xml.py ../mapnik/style-solid-colors.xml ../tilestache/style-solid-colors.xml
-	upgrade_map_xml.py ../mapnik/style-ocean.xml ../tilestache/style-ocean.xml
-	upgrade_map_xml.py ../mapnik/style-labels.xml ../tilestache/style-labels.xml
 	
 copy: ../mapnik/style.xml \
 	../mapnik/style-solid-colors.xml \
 	../mapnik/style-ocean.xml \
+	../mapnik/style-land.xml \
 	../mapnik/style-labels.xml
 	cp ../mapnik/style.xml ../tilestache/style.xml
 	cp ../mapnik/style-solid-colors.xml ../tilestache/style-solid-colors.xml
 	cp ../mapnik/style-ocean.xml ../tilestache/style-ocean.xml
+	cp ../mapnik/style-land.xml ../tilestache/style-land.xml
 	cp ../mapnik/style-labels.xml ../tilestache/style-labels.xml	
