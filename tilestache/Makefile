@@ -16,7 +16,7 @@ world:
 	tilestache-seed.py -b -89.9 -179.9 89.9 179.9 -c tilestache.cfg -l map 0 1 2 3 4 5 6
 
 zip:
-	zip -r tiles.zip tiles/map/
+	zip -r tiles.zip tiles/map-bright/
 
 clean:
 	mkdir -p tiles
